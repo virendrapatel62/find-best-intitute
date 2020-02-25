@@ -1,0 +1,32 @@
+{
+    "name": "find-best-intitute",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node dist/app.js",
+        "dev": "nodemon src/app.ts",
+        "build": "tsc -p ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/virendrapatel62/find-best-intitute.git"
+    },
+    "author": "feelfreetocode",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/virendrapatel62/find-best-intitute/issues"
+    },
+    "homepage": "https://github.com/virendrapatel62/find-best-intitute#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.2",
+        "@types/node": "^13.7.4",
+        "nodemon": "^2.0.2",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.8.2"
+    }
+}
